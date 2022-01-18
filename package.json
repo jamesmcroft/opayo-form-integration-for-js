@@ -34,10 +34,10 @@
         "url": "git+https://github.com/jamesmcroft/opayo-form-integration-for-js.git"
     },
     "keywords": [
-        "Array",
-        "Collection",
-        "List",
-        "Extensions"
+        "Opayo",
+        "Form Integration",
+        "Crypto",
+        "SagePay"
     ],
     "license": "MIT",
     "bugs": {
