@@ -1,0 +1,60 @@
+{
+    "name": "opayo-form-integration-js",
+    "version": "1.0.0",
+    "main": "./index.js",
+    "typings": "./index.d.ts",
+    "scripts": {
+        "build": "npm test && tsc",
+        "dist": "copy /Y package.json dist && copy /Y README.md dist",
+        "test": "jest --passWithNoTests --collectCoverage"
+    },
+    "files": [
+        "*"
+    ],
+    "jest": {
+        "transform": {
+            "^.+\\.tsx?$": "ts-jest"
+        },
+        "moduleFileExtensions": [
+            "ts",
+            "js"
+        ],
+        "testEnvironment": "jsdom",
+        "testRegex": "^.+\\.spec\\.ts$",
+        "coverageReporters": [
+            "json",
+            "lcov",
+            "text",
+            "clover",
+            "cobertura"
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jamesmcroft/opayo-form-integration-for-js.git"
+    },
+    "keywords": [
+        "Array",
+        "Collection",
+        "List",
+        "Extensions"
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jamesmcroft/opayo-form-integration-for-js/issues"
+    },
+    "homepage": "https://github.com/jamesmcroft/opayo-form-integration-for-js",
+    "dependencies": {
+        "@types/crypto-js": "^4.1.0",
+        "crypto-js": "^4.1.1",
+        "made-data-validation": "^0.1.0-alpha.15"
+    },
+    "devDependencies": {
+        "@types/faker": "^5.5.9",
+        "@types/jest": "^27.4.0",
+        "faker": "^5.5.3",
+        "jest": "^27.4.7",
+        "ts-jest": "^27.1.2",
+        "typescript": "^4.5.4"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "lib": [
+            "ESNext",
+            "DOM"
+        ],
+        "jsx": "preserve",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "types": [
+            "jest"
+        ],
+        "resolveJsonModule": true,
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "outDir": "./dist",
+        "declaration": true,
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.d.ts",
+        "src/**/*.tsx",
+    ],
+    "exclude": [
+        "tests/**/*"
+    ]
+}
