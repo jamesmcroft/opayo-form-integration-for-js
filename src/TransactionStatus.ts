@@ -1,3 +1,6 @@
+/**
+ * Defines the values associated with the status of a transaction after a successful or failed transaction attempt with Opayo.
+ */
 export enum TransactionStatus {
     /**
      * This value is present if the transaction was authorised.

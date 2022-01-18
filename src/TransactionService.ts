@@ -5,6 +5,9 @@ import { ITransactionDetail } from "./ITransactionDetail";
 import { ITransactionResponse } from "./ITransactionResponse";
 import { ITransactionService } from "./ITransactionService";
 
+/**
+ * Defines a service for initiating and handling an Opayo transaction.
+ */
 export class TransactionService implements ITransactionService {
     isTestEnvironment: boolean;
 

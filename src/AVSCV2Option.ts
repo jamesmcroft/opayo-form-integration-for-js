@@ -1,3 +1,6 @@
+/**
+ * Defines the values associated with applying AVS/CV2 for the Opayo transaction details.
+ */
 export enum AVSCV2Option {
     /**
      * If AVS/CV2 enabled then check them. If rules apply, use rules (default).

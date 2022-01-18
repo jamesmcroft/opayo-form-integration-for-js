@@ -1,3 +1,6 @@
+/**
+ * Defines the values associated with the 3D Secure Options for the Opayo transaction details.
+ */
 export enum SecureOption {
     /**
      * If 3D-Secure checks are possible and rules allow, perform the checks and apply the authorisation rules. (default)

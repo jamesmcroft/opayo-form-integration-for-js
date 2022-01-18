@@ -1,3 +1,6 @@
+/**
+ * Defines the values associated with the sending of an email post transaction for the Opayo transaction details.
+ */
 export enum SendEmailOption {
   /**
    * Do not send either customer or vendor emails.

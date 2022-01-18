@@ -1,3 +1,6 @@
+/**
+ * Defines the values associated with the reauthorisation of a transaction if the InitiatedType is MIT for the Opayo transaction details.
+ */
 export enum MITType {
     /**
      * A single purchase of goods or services paid for over multiple payments.

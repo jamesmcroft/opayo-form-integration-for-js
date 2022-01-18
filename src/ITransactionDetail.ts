@@ -6,10 +6,16 @@ import { MITType } from "./MITType";
 import { SendEmailOption } from "./SendEmailOption";
 import { TransactionType } from "./TransactionType";
 
+/**
+ * Defines an interface for an object map for the details of an Opayo transaction.
+ */
 export interface ITransactionDetailMap {
     [key: string]: any;
 }
 
+/**
+ * Defines an interface for the details of an Opayo transaction to be encrypted.
+ */
 export interface ITransactionDetail extends ITransactionDetailMap {
     VendorTxCode: string;
     Amount: string;
