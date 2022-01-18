@@ -18,7 +18,7 @@ npm install opayo-form-integration-for-js
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/jamesmcroft/opayo-form-integration-for-js/issues). You can also take a look at the [contributing guide](https://github.com/jamesmcroft/opayo-form-integration-for-js/blob/master/CONTRIBUTING.md).
+Feel free to check the [issues page](https://github.com/jamesmcroft/opayo-form-integration-for-js/issues). You can also take a look at the [contributing guide](https://github.com/jamesmcroft/opayo-form-integration-for-js/blob/main/CONTRIBUTING.md).
 
 We actively encourage you to jump in and help with any issues!
 
