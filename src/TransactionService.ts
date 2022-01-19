@@ -59,7 +59,7 @@ export class TransactionService implements ITransactionService {
         "PurchaseInstalData": new ValidatorArray(() => { }, new RegexValidator(/^\d+$/), new MaxLengthValidator(3)),
     }
 
-    constructor(isTestEnvironment: boolean) {
+    constructor(isTestEnvironment: boolean = false) {
         this.isTestEnvironment = isTestEnvironment;
     }
 
