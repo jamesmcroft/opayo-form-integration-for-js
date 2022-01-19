@@ -1,8 +1,8 @@
 # Opayo Form Integration Library for JavaScript 
 
 [![GitHub release](https://img.shields.io/github/release/jamesmcroft/opayo-form-integration-for-js.svg)](https://github.com/jamesmcroft/opayo-form-integration-for-js/releases)
-[![npm](https://img.shields.io/npm/v/opayo-form-integration-for-js.svg)](https://www.npmjs.com/package/opayo-form-integration-for-js)
-[![npm Downloads](https://img.shields.io/npm/dt/opayo-form-integration-for-js.svg)](https://www.npmjs.com/package/opayo-form-integration-for-js)
+[![npm](https://img.shields.io/npm/v/opayo-form-integration-js.svg)](https://www.npmjs.com/package/opayo-form-integration-js)
+[![npm Downloads](https://img.shields.io/npm/dt/opayo-form-integration-js.svg)](https://www.npmjs.com/package/opayo-form-integration-js)
 [![Build status](https://github.com/jamesmcroft/opayo-form-integration-for-js/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/jamesmcroft/opayo-form-integration-for-js/actions/workflows/ci.yml)
 [![Twitter Followers](https://img.shields.io/twitter/follow/jamesmcroft?label=follow%20%40jamesmcroft&style=flat)](https://twitter.com/jamesmcroft)
 
