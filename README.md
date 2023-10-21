@@ -11,7 +11,7 @@ The Opayo (formerly SagePay) Form Integration Library for JavaScript is a librar
 ## Install
 
 ```sh
-npm install opayo-form-integration-for-js
+npm install opayo-form-integration-js
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ npm install opayo-form-integration-for-js
 ### Initiating a payment
 
 ```js
-import { TransactionService, ITransaction, ITransactionDetail } from 'opayo-form-integration-for-js';
+import { TransactionService, ITransaction, ITransactionDetail } from 'opayo-form-integration-js';
 
 var transactionService = new TransactionService();
 
@@ -56,7 +56,7 @@ var transaction = await transactionService.initiateTransaction(transactionDetail
 ### Handling a response
 
 ```js
-import { TransactionService, ITransactionResponse } from 'opayo-form-integration-for-js';
+import { TransactionService, ITransactionResponse } from 'opayo-form-integration-js';
 
 var transactionService = new TransactionService();
 

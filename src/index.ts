@@ -8,5 +8,6 @@ export * from './ITransactionResponse';
 export * from './ITransactionService';
 export * from './MITType';
 export * from './SendEmailOption';
+export * from './TransactionService';
 export * from './TransactionStatus';
 export * from './TransactionType';
