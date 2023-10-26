@@ -46,7 +46,7 @@
     "homepage": "https://github.com/jamesmcroft/opayo-form-integration-for-js",
     "dependencies": {
         "@types/crypto-js": "^4.1.3",
-        "crypto-js": "^4.1.1",
+        "crypto-js": "^4.2.0",
         "made-data-validation": "^0.1.0-alpha.16"
     },
     "devDependencies": {
